@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Remember me</title>
+<link rel="stylesheet" type="text/css" href="dex.css">
+
+</head>
+<body>
+<script src="app.js"></script>
+
+<h1 style="font-size:50px;">Remember me</h1>
+<div class="outframe">
+<div class="men" onclick="main()">新游戏<div>New</div></div>
+
+<div onclick="this.textContent = num[0];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[0]}" class="a"></div>
+<div onclick="this.textContent = num[1];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[1]}" class="a"></div>
+<div onclick="this.textContent = num[2];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[2]}" class="a"></div>
+<div onclick="this.textContent = num[3];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[3]}" class="a"></div>
+<div onclick="this.textContent = num[4];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[4]}" class="a"></div>
+<div onclick="this.textContent = num[5];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[5]}" class="a"></div>
+<div onclick="this.textContent = num[6];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[6]}" class="a"></div>
+<div onclick="this.textContent = num[7];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[7]}" class="a"></div>
+<div onclick="this.textContent = num[8];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[8]}" class="a"></div>
+<div onclick="this.textContent = num[9];if(parseInt(this.textContent) === answer){this.style.color = 'green';this.style.backgroundColor = 'white';answer++;}else{this.style.color = 'black';this.style.backgroundColor = 'red';answer = 10;this.textContent = num[9]}" class="a"></div>
+</div>
+<footer>
+
+游戏规则：<br>
+	点击 》新游戏《 方框中随机列出0-9的数字，<br>
+	9秒后隐藏，您将记住每个方框中的数字，<br>
+	当数字隐藏后，请按照0到9的顺序逐个打开方框。<br>
+
+
+</footer>
+
+</body>
+</html>

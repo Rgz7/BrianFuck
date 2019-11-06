@@ -1,0 +1,41 @@
+﻿body {
+    /*background-color: #d0e4fe;*/
+	background-color: black;
+	color: white;
+}
+.a {
+	background-color: black;
+	float: left;
+    width: 250px;
+    height: 175px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
+    text-align: center;
+	font-size: 90px;
+	color: white;
+}
+
+.men {
+	
+	float: left;
+    width: 250px; 
+    height: 175px;
+    margin: 10px;
+	padding-top:70px;
+	padding-bottom:80px;
+    border: 3px solid #73AD21; 
+    text-align: center;
+	font-size: 80px;
+	color: white;
+	
+}
+.outframe {
+	width: 900px;
+	height: 568px;
+	
+}
+footer {
+	padding-top: 300px;
+	font-size: 35px;
+	
+}
